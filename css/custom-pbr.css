@@ -4,3 +4,9 @@
     width: 99%;
     padding: 0px 15px;
 }
+
+@media screen and (max-width:725px) {
+    .embed-yt {
+      width: 90%;
+    }
+  }
