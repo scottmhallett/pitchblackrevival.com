@@ -90,11 +90,11 @@ html {
   color-scheme: dark;
 }
 body {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+  "Open Sans", sans-serif;
 }
 
 /* Typography
@@ -105,7 +105,7 @@ h1 {
   font-weight: 800;
 }
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 64px;
   letter-spacing: 0;
 }
