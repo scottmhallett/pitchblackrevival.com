@@ -29,6 +29,8 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+/* Modified brands.css for PBR */
+
 .button,
 button {
   display: inline-block;
@@ -36,15 +38,15 @@ button {
   height: 100%;
   text-align: center;
   vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
+  font-size: 14px;
+  width: 100%;
   font-weight: 700;
   line-height: 20px;
   padding: 14px 12px 12px 12px;
   letter-spacing: 0.1px;
   white-space: wrap;
   outline: none;
-  border-radius: 8px;
+  border-radius: 24px;
   cursor: pointer;
   
 }     
@@ -64,14 +66,20 @@ button:hover,
   filter: brightness(90%);
 }
 
+@media screen and (max-width:725px) {
+  .button, button {
+    width: 100%;
+  }
+}
+
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .icon {
   padding: 0px 8px 3.5px 0px;
   vertical-align: middle;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
 }
 
 /* Brand Styles
@@ -80,7 +88,8 @@ button:hover,
 /* Default (this is great for your own brand color!) */
 .button.button-default {
   color: #ffffff;
-  background-color: #2457F5;
+  /* background-color: #2457F5; */
+  background-color: #444;
 }
 .button.button-default:hover,
 .button.button-default:focus {
